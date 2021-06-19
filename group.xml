@@ -9,8 +9,7 @@
   </groups>
     <classes>
       <class name="cases.scripts"/>
-      <class name="cases.forward"/>
-      <class name="cases.testscripts"/>
+      <class name="cases.forward"/>      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
