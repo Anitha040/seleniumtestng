@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="cases.forward">
+        <methods>
+          <include name="openbrowser"/>
+          <include name="testB"/>
+          <include name="closebrowser"/>
+          <include name="login"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- cases.forward -->
+      <class name="cases.scripts">
+        <methods>
+          <include name="openbrowser"/>
+          <include name="logout"/>
+          <include name="verify_Url"/>
+          <include name="closebrowser"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- cases.scripts -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
